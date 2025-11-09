@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <meta name="google-site-verification" content="lf-PV_C8MnSo-DSlqfIce8G4oFIf5MENE6SoLWmnml4" />
+
     <!-- Permissions Policy -->
     <meta http-equiv="Permissions-Policy" content="unload=()">
 
@@ -29,11 +31,13 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/magnific-popup/css/magnific-popup.min.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/magnific-popup/css/magnific-popup.min.css') }}" media="print"
+        onload="this.media='all'">
     <!-- Animate -->
     <link rel="stylesheet" href="{{ asset('assets/vendor/animate.min.css') }}" media="print" onload="this.media='all'">
     <!-- Slick -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/slick/css/slick.min.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/slick/css/slick.min.css') }}" media="print"
+        onload="this.media='all'">
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
@@ -55,22 +59,27 @@
                 font-size: 1.75rem !important;
                 line-height: 1.3 !important;
             }
+
             .section-title h2 {
                 font-size: 1.5rem !important;
             }
+
             .hero3-content h4 {
                 font-size: 1.25rem !important;
                 line-height: 1.4 !important;
             }
         }
+
         @media (max-width: 480px) {
             .section-title h1 {
                 font-size: 1.5rem !important;
                 line-height: 1.3 !important;
             }
+
             .section-title h2 {
                 font-size: 1.25rem !important;
             }
+
             .hero3-content h4 {
                 font-size: 1.1rem !important;
             }
